@@ -1,4 +1,5 @@
 @import "./normalize.css";
+@import "./fonts.css";
 
 h1,
 h2,
@@ -15,13 +16,31 @@ a {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins';
+}
+
+.site-logo {
+    font-weight: 400;
+    font-size: 33.18px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.header-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+}
+
 .picture-background {
     background-image: url(../images/background-index-1.jpg);
-    background-size: 100%; 
+    background-size: 100%;
     height: 800px;
-  
+    color: #fff;
     background-repeat: no-repeat;
-   }
+}
 
 
 .language-icon {
